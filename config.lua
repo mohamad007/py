@@ -2,7 +2,7 @@
 return {
 
     -- Your authorization token from the botfather.
-    bot_api_key = 259848345:AAHTP93gFJZA-kqUrVXvoNc944OL0UjBirM,
+    bot_api_key = '259848345:AAHTP93gFJZA-kqUrVXvoNc944OL0UjBirM',
     -- Your Telegram ID.
     admin = 208094932,
     -- Two-letter language code.
