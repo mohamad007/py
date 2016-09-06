@@ -2,14 +2,14 @@
 return {
 
     -- Your authorization token from the botfather.
-    bot_api_key = nil,
+    bot_api_key = 259848345:AAHTP93gFJZA-kqUrVXvoNc944OL0UjBirM,
     -- Your Telegram ID.
-    admin = nil,
+    admin = 208094932,
     -- Two-letter language code.
     lang = 'en',
     -- The channel, group, or user to send error reports to.
     -- If this is not set, errors will be printed to the console.
-    log_chat = nil,
+    log_chat = 157846183,
     -- The port used to communicate with tg for administration.lua.
     -- If you change this, make sure you also modify launch-tg.sh.
     cli_port = 4567,
